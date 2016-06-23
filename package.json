@@ -1,0 +1,39 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "live chat application using socket io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syed-Niotic/live-chat.git"
+  },
+  "keywords": [
+    "live",
+    "chat",
+    "socket",
+    "io",
+    "reactjs"
+  ],
+  "author": "Syed Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Syed-Niotic/live-chat/issues"
+  },
+  "homepage": "https://github.com/Syed-Niotic/live-chat#readme",
+  "devDependencies":{
+    "babel-core": "5.8.*",
+    "babel-loader": "5.3.*",
+    "webpack": "1.12.*"
+  },
+  "dependencies": {
+      "react":"^0.14.7",
+      "react-dom":"^0.14.7",
+      "express":"*",
+      "socket.io":"*",
+      "socket.io-client":"*"
+
+  }
+}
